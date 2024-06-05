@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "logo space1 headline1 headline2 headline3 space2";
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.space1 {
+    grid-area: space1;
+}
+
+.headline1 {
+    grid-area: headline1;
+}
+
+.headline2 {
+    grid-area: headline2;
+}
+
+.headline3 {
+    grid-area: headline3;
+}
+
+.space2 {
+    grid-area: space2;
+}

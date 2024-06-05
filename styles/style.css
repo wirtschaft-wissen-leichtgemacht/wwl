@@ -1,5 +1,6 @@
 :root {
     --background-color: #16263a;
+    --hovered-link-background-color: #ffffff40;
     --text-color: #ffffff;
     --accent-color: #f5b323;
 }
@@ -14,4 +15,55 @@ body {
 
 .accent {
     color: var(--accent-color);
+}
+
+.container {
+}
+
+.logo {
+}
+
+.space1 {
+}
+
+.headline1 {
+    border: solid 1px red;
+    display: block;
+}
+.headline1 a {
+    color: var(--accent-color);
+    display: block;
+}
+.headline1 a:hover {
+    background-color: var(--hovered-link-background-color);
+    display: block;
+}
+
+.headline2 {
+    border: solid 1px red;
+    display: block;
+}
+.headline2 a {
+    color: var(--accent-color);
+    display: block;
+}
+.headline2 a:hover {
+    background-color: var(--hovered-link-background-color);
+    display: block;
+}
+
+.headline3 {
+    border: solid 1px red;
+    display: block;
+}
+.headline3 a {
+    color: var(--accent-color);
+    display: block;
+}
+.headline3 a:hover {
+    background-color: var(--hovered-link-background-color);
+    display: block;
+}
+
+.space2 {
 }

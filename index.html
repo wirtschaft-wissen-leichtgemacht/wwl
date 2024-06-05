@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>WWL</title>
         <link rel="stylesheet" href="./styles/style.css" />
-        <link rel="stylesheet" href="./styles/grid.css" />
+        <link rel="stylesheet" href="./styles/navgrid.css" />
+        <link rel="stylesheet" href="./styles/maingrid.css" />
     </head>
     <body>
-        <nav class="container">
+        <nav class="navContainer">
             <div class="logo">
                 <img
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAACyUlEQVRIS+2WS2hTQRSGT5LmHVLTpg9b2xqLCr6gBbFUEMQqCOLCrYKuioIgVFAQuioICgqCKHTlQleCCxUEjQhCiyK24AtFa236TB8JjUnTpEnH+w+ccW7jNunCzKa5JzPzn/P959zUcnrkiaB1WJaycKmol1EXnfSp4C7a7a6hkqO+UL+X2jx1/6Pwneh78TY5pbxlDz6m5+j+/CcVP1wZoi7/ZvqwNEd7PDW0kEvT9ek3pp641nRQPl8ef2WK9zbuJ4fFRr0Tr0mhHvg9Ifpnh9VGHK6ze2k8m5AbeV3a2EE73EG6OjVIZ2vbyWezU/foM1NiJ6t3yue7s0PExVRXuOlG8yEaycSpb3Lgr3Aksyh0gXtbjsnDWZE3XXyzucvI2krnx54TJ6ELcCU4O5icJC7mRGA7HQ9spXDilySoKs6s5gRnDpzIGtU2Ofwq822uKrrS0Elf0vMSL1+mCzDmQIWLoispRQuYW50Buhh5Ke1RwsJYnDkH8XzOwMlZwnf4+2DhM71YHJVEQEa3A8/DS1EKGmgDNpckg3W75QilVleU7yZhzlxvjv7QUXkxfOnbdED6rnuqx5gUEgs5N1Cnr1H2AqpHAToZE2pGw1nfmnknxThzJKHjQyXdtW1SAHQ6jL94KZz5+ZT2+RoULY/VrvZwsynhH8sxAT8fxr5KfxknbwBuYGbs3MbsO6ppNarUxwgFoIt9Vgd5DXHGjj1K2PBM4GJUBJzIGovxJfNZY3Qcqjn0AWX/cA7+ghQWLIMgznFD8jkl3DMWFpgzLIjrw8+jFcstU08krGvKzzxW+Kw3nj5aj+Pf6VH8mzpreldjRquMRtCz5szXVqOr81ghxqR0WmvjJtT4nwsN4bc5aSg1I2dN97HFWVkQ5+/xVmr31lMin1FvKv4OVv0rjt7AnSX/WeTEysIFnVusQBl1scgW3LtuqP8AGMLHMvqEVNQAAAAASUVORK5CYII="
@@ -16,10 +17,61 @@
                 />
             </div>
             <div class="space1"></div>
-            <div class="headline1">entry1</div>
-            <div class="headline2">entry2</div>
-            <div class="headline3">entry3</div>
+            <div class="headline1"><a href="#paragraph1">entry1</a></div>
+            <div class="headline2"><a href="#paragraph2">entry2</a></div>
+            <div class="headline3"><a href="#paragraph3">entry3</a></div>
             <div class="space2"></div>
         </nav>
+        <main>
+            <h1></h1>
+            <div class="mainContainer">
+                <div id="paragraph1" class="paragraph1">
+                    <div class="img1">
+                        <img
+                            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22700%22%20height%3D%22450%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20700%20450%22%20preserveAspectRatio%3D%22none%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%20%20%20%20%20%20%20%20%20%20%23holder%20text%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3A%20%23ffffff%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-family%3A%20sans-serif%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%2080px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20200%3B%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%3C%2Fstyle%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Cg%20id%3D%22holder%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23ff60b3%22%3E%3C%2Frect%3E%0A%20%20%20%20%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ctext%20text-anchor%3D%22middle%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20dy%3D%22.3em%22%3E700%20x%20450%3C%2Ftext%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+                            alt=""
+                        />
+                    </div>
+                    <div class="text1">
+                        <span
+                            >Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Sint temporibus facilis similique iste
+                            mollitia. Ea voluptate dicta illum voluptatum
+                            modi.</span
+                        >
+                    </div>
+                </div>
+                <div id="paragraph2" class="paragraph2">
+                    <div class="text2">
+                        <span
+                            >Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ea, non et aperiam atque odit temporibus.
+                            Minima quaerat ab veniam aliquam.</span
+                        >
+                    </div>
+                    <div class="img2">
+                        <img
+                            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22700%22%20height%3D%22450%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20700%20450%22%20preserveAspectRatio%3D%22none%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%20%20%20%20%20%20%20%20%20%20%23holder%20text%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3A%20%23ffffff%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-family%3A%20sans-serif%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%2080px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20200%3B%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%3C%2Fstyle%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Cg%20id%3D%22holder%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23ff60b3%22%3E%3C%2Frect%3E%0A%20%20%20%20%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ctext%20text-anchor%3D%22middle%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20dy%3D%22.3em%22%3E700%20x%20450%3C%2Ftext%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div id="paragraph3" class="paragraph3">
+                    <div class="img3">
+                        <img
+                            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22700%22%20height%3D%22450%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20700%20450%22%20preserveAspectRatio%3D%22none%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%20%20%20%20%20%20%20%20%20%20%23holder%20text%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20fill%3A%20%23ffffff%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-family%3A%20sans-serif%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-size%3A%2080px%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20font-weight%3A%20200%3B%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%3C%2Fstyle%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Cg%20id%3D%22holder%22%3E%0A%20%20%20%20%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23ff60b3%22%3E%3C%2Frect%3E%0A%20%20%20%20%20%20%20%20%3Cg%3E%0A%20%20%20%20%20%20%20%20%20%20%3Ctext%20text-anchor%3D%22middle%22%20x%3D%2250%25%22%20y%3D%2250%25%22%20dy%3D%22.3em%22%3E700%20x%20450%3C%2Ftext%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fsvg%3E"
+                            alt=""
+                        />
+                    </div>
+                    <div class="text3">
+                        <span
+                            >Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Repellendus libero voluptatem est enim velit
+                            quas minus rem quam, nesciunt dicta.</span
+                        >
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>

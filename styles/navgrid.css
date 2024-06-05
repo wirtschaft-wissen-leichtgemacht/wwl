@@ -1,10 +1,13 @@
-.container {
+.navContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: min-content 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap: 0px 0px;
+    gap: 0px 5px;
     grid-auto-flow: row;
     grid-template-areas: "logo space1 headline1 headline2 headline3 space2";
+    align-items: center;
+    text-align: center;
+    margin: 5px;
 }
 
 .logo {

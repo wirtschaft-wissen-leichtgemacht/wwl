@@ -14,6 +14,15 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--accent-color);
+}
+
 #title {
     font-family: "danfo", sans-serif;
     font-size: 1.5rem;
@@ -31,6 +40,10 @@ body {
 }
 .navContainer {
     margin: 5px;
+}
+
+main h1 {
+    text-align: center;
 }
 
 .headline1 {

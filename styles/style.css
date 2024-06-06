@@ -88,4 +88,16 @@ main h1 {
 footer {
     background-color: #ffffff4f;
     text-align: center;
+    padding-bottom: 1rem;
+}
+
+.legal {
+    padding-top: 1rem;
+}
+
+.disclaimer {
+    padding-top: 1rem;
+}
+.disclaimer h4 {
+    margin-top: 0;
 }

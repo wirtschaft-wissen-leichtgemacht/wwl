@@ -14,6 +14,13 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+#title{
+    font-family: 'danfo', sans-serif;
+    background-color: #ffffff4f;
+    padding: 0px 3px 1px 3px;
+    border-radius: 5px;
+}
+
 .accent {
     color: var(--accent-color);
 }
@@ -59,4 +66,8 @@ body {
 .headline3 a:hover {
     background-color: var(--hovered-link-background-color);
     display: block;
+}
+
+.mainContainer img{
+    width:400px;
 }

@@ -71,3 +71,8 @@ body {
     background-color: var(--hovered-link-background-color);
     display: block;
 }
+
+footer {
+    background-color: #ffffff4f;
+    text-align: center;
+}

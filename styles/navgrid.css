@@ -7,7 +7,6 @@
     grid-template-areas: "logo space1 headline1 headline2 headline3 space2";
     align-items: center;
     text-align: center;
-    margin: 5px;
 }
 
 .logo {

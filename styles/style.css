@@ -17,13 +17,8 @@ body {
     color: var(--accent-color);
 }
 
-.container {
-}
-
-.logo {
-}
-
-.space1 {
+.navContainer {
+    margin: 5px;
 }
 
 .headline1 {
@@ -63,7 +58,4 @@ body {
 .headline3 a:hover {
     background-color: var(--hovered-link-background-color);
     display: block;
-}
-
-.space2 {
 }

@@ -52,16 +52,18 @@
                     <div class="text2">
                         <h2>Geb&uuml;hren*</h2>
                         <span
-                            >Bitexchange verlangt eine geb&uuml;hr von gerade
+                            >Bitexchange verlangt eine Geb&uuml;hr von gerade
                             einmal
                             <span class="accent">0,4% je Transaktion</span>.
-                            Ausgenommen von den besagten Transaktionen ist das
+                            Ausgenommen von den benannten Transaktionen ist das
                             Versenden von Geld, da dies geb&uuml;hrenfrei
                             stattfindet.</span
                         >
                     </div>
                     <div class="img2">
-                        <img src="../img/percentage.svg" alt="" />
+                        <div id="chart">
+                            <canvas id="myChart"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div id="paragraph3" class="paragraph3">
@@ -101,39 +103,7 @@
                 </div>
             </div>
         </footer>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <div id="chart">
-            <canvas id="myChart"></canvas>
-        </div>
-
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-        <script>
-            const ctx = document.getElementById("myChart");
-
-            const chart = new Chart(ctx, {
-                type: "doughnut",
-                data: {
-                    labels: ["Red", "Blue"],
-                    datasets: [
-                        {
-                            label: "# of Votes",
-                            data: [996, 4],
-                            borderWidth: 1,
-                        },
-                    ],
-                },
-                options: {
-                    tooltips: { enabled: false },
-                    hover: { mode: null },
-                },
-            });
-        </script>
+        <script src="../script/scrip.js"></script>
     </body>
 </html>

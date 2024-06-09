@@ -23,11 +23,9 @@
     grid-area: paragraph1;
     align-items: center;
 }
-
 .img1 {
     grid-area: img1;
 }
-
 .text1 {
     grid-area: text1;
 }
@@ -42,11 +40,9 @@
     grid-area: paragraph2;
     align-items: center;
 }
-
 .text2 {
     grid-area: text2;
 }
-
 .img2 {
     grid-area: img2;
     justify-self: end;
@@ -62,11 +58,9 @@
     grid-area: paragraph3;
     align-items: center;
 }
-
 .img3 {
     grid-area: img3;
 }
-
 .text3 {
     grid-area: text3;
 }

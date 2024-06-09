@@ -1,17 +1,14 @@
-
 /* nav start */
+.navContainer {
+    margin: 5px;
+}
+
 #logo {
     font-family: "danfo", sans-serif;
     width: 1.5rem;
     background-color: #ffffffdc;
     padding: 0px 3px 1px 3px;
     border-radius: 5px;
-    text-decoration: none;
-    color: var(--text-color);
-}
-
-.navContainer {
-    margin: 5px;
 }
 
 .headline1 {

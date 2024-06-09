@@ -1,7 +1,10 @@
 .navContainer {
     display: grid;
     grid-template-columns:
-        min-content 1fr minmax(192px, 1fr) minmax(90px, 1fr) minmax(125px, 1fr)
+        min-content 1fr minmax(192px, 300px) minmax(90px, 300px) minmax(
+            125px,
+            300px
+        )
         1fr;
     grid-template-rows: 1fr;
     gap: 0px 5px;

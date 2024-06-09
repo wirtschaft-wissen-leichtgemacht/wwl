@@ -4,7 +4,6 @@
 }
 
 #logo {
-    font-family: "danfo", sans-serif;
     width: 1.5rem;
     background-color: #ffffffdc;
     padding: 0px 3px 1px 3px;
@@ -64,13 +63,13 @@
     width: 400px;
 }
 
+main h1 {
+    text-align: center;
+}
+
 main {
     width: max(1000px);
     margin: auto;
-}
-
-main h1 {
-    text-align: center;
 }
 
 /* main end */

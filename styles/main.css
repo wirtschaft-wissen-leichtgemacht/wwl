@@ -3,6 +3,7 @@
     --hovered-link-background-color: #ffffff40;
     --text-color: #ffffff;
     --accent-color: #f5b323;
+    --episode-background-color: #ffffff20;
 }
 
 .accent {
@@ -23,6 +24,6 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     color: var(--accent-color);
 }

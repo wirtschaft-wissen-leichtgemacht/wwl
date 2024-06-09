@@ -1,0 +1,88 @@
+/* nav start*/
+
+.navContainer {
+    margin: 5px;
+}
+
+#logo {
+    font-family: "danfo", sans-serif;
+    width: 1.5rem;
+    background-color: #ffffffdc;
+    padding: 0px 3px 1px 3px;
+    border-radius: 5px;
+}
+
+.headline1 {
+    border: solid 1px var(--accent-color);
+    display: block;
+}
+.headline1 a {
+    color: var(--accent-color);
+    background-color: #ffffff20;
+    display: block;
+    padding: 3px 0px 3px 0px;
+}
+.headline1 a:hover {
+    background-color: var(--hovered-link-background-color);
+    display: block;
+}
+
+.headline2 {
+    border: solid 1px var(--accent-color);
+    display: block;
+}
+.headline2 a {
+    color: var(--accent-color);
+    background-color: #ffffff20;
+    display: block;
+    padding: 3px 0px 3px 0px;
+}
+.headline2 a:hover {
+    background-color: var(--hovered-link-background-color);
+    display: block;
+}
+
+.headline3 {
+    border: solid 1px var(--accent-color);
+    display: block;
+}
+.headline3 a {
+    color: var(--accent-color);
+    background-color: #ffffff20;
+    display: block;
+    padding: 3px 0px 3px 0px;
+}
+.headline3 a:hover {
+    background-color: var(--hovered-link-background-color);
+    display: block;
+}
+
+/* nav end */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* main start */
+.mainContainer {
+}
+
+.episode {
+    background-color: var(--episode-background-color);
+    border-radius: 21px;
+    border: 1px solid var(--accent-color);
+}
+
+.episodeNum {
+    font-size: 22px;
+    border: 1px solid var(--accent-color);
+    padding: 0px 13px;
+    border-radius: 20px;
+}
+
+.episodeTitle {
+    font-size: 22px;
+}
+
+.description {
+}
+
+/* main end */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* footer start */

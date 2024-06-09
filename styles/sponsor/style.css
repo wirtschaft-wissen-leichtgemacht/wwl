@@ -55,6 +55,21 @@
     display: block;
 }
 
+.headline4 {
+    border: solid 1px var(--accent-color);
+    display: block;
+}
+.headline4 a {
+    color: var(--accent-color);
+    background-color: #ffffff20;
+    display: block;
+    padding: 3px 0px 3px 0px;
+}
+.headline4 a:hover {
+    background-color: var(--hovered-link-background-color);
+    display: block;
+}
+
 /* nav end */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* main start */

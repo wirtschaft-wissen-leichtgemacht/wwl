@@ -5,7 +5,6 @@
 }
 
 #logo {
-    font-family: "danfo", sans-serif;
     width: 1.5rem;
     background-color: #ffffffdc;
     padding: 0px 3px 1px 3px;
@@ -60,8 +59,6 @@
 /* nav end */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* main start */
-.mainContainer {
-}
 
 .episode {
     background-color: var(--episode-background-color);

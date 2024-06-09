@@ -1,0 +1,28 @@
+:root {
+    --background-color: #16263a;
+    --hovered-link-background-color: #ffffff40;
+    --text-color: #ffffff;
+    --accent-color: #f5b323;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    inset: 0;
+    margin: 0;
+    font-size: 100%;
+    font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: var(--accent-color);
+}

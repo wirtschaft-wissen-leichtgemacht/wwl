@@ -1,29 +1,6 @@
-:root {
-    --background-color: #16263a;
-    --hovered-link-background-color: #ffffff40;
-    --text-color: #ffffff;
-    --accent-color: #f5b323;
-}
 
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    inset: 0;
-    margin: 0;
-    font-size: 100%;
-    font-family: "Raleway", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--accent-color);
-}
-
-#title {
+/* nav start */
+#logo {
     font-family: "danfo", sans-serif;
     font-size: 1.5rem;
     background-color: #ffffff4f;
@@ -32,14 +9,6 @@ h6 {
     text-decoration: none;
     color: var(--text-color);
 }
-
-.accent {
-    color: var(--accent-color);
-}
-
-/* general settings end */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* nav start */
 
 .navContainer {
     margin: 5px;
@@ -126,6 +95,19 @@ footer {
 }
 .disclaimer h4 {
     margin-top: 0;
+}
+
+.disclaimer a{
+    color: var(--accent-color);
+    border: solid 1px var(--accent-color);
+    background-color: #ffffff20;
+    display: block;
+    padding: 3px 0px 3px 0px;
+    width:100px;
+    margin: auto;
+}
+.disclaimer a:hover{
+    background-color: var(--hovered-link-background-color);;
 }
 
 /* footer end */

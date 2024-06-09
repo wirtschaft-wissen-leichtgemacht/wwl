@@ -2,8 +2,8 @@
 /* nav start */
 #logo {
     font-family: "danfo", sans-serif;
-    font-size: 1.5rem;
-    background-color: #ffffff4f;
+    width: 1.5rem;
+    background-color: #ffffffdc;
     padding: 0px 3px 1px 3px;
     border-radius: 5px;
     text-decoration: none;
@@ -97,17 +97,17 @@ footer {
     margin-top: 0;
 }
 
-.disclaimer a{
+.disclaimer a {
     color: var(--accent-color);
     border: solid 1px var(--accent-color);
     background-color: #ffffff20;
     display: block;
     padding: 3px 0px 3px 0px;
-    width:100px;
+    width: 100px;
     margin: auto;
 }
-.disclaimer a:hover{
-    background-color: var(--hovered-link-background-color);;
+.disclaimer a:hover {
+    background-color: var(--hovered-link-background-color);
 }
 
 /* footer end */

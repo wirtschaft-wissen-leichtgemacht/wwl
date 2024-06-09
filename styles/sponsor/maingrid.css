@@ -64,3 +64,21 @@
 .text3 {
     grid-area: text3;
 }
+
+.paragraph4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "text4 img4";
+    grid-area: paragraph4;
+    align-items: center;
+}
+.text4 {
+    grid-area: text4;
+}
+.img4 {
+    grid-area: img4;
+    justify-self: end;
+}

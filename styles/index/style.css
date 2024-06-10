@@ -68,7 +68,7 @@ main p {
 
 .episode {
   background-color: var(--episode-background-color);
-  border-radius: 21px;
+  border-radius: 10px;
   border: 1px solid var(--accent-color);
 }
 

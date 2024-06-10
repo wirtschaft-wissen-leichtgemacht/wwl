@@ -1,73 +1,66 @@
 /* nav start */
 .navContainer {
-    margin: 5px;
-}
-
-#logo {
-    width: 1.5rem;
-    background-color: #ffffffdc;
-    padding: 0px 3px 1px 3px;
-    border-radius: 5px;
+  margin: 5px;
 }
 
 .headline1 {
-    border: solid 1px var(--accent-color);
-    display: block;
+  border: solid 1px var(--accent-color);
+  display: block;
 }
 .headline1 a {
-    color: var(--accent-color);
-    background-color: #ffffff20;
-    display: block;
-    padding: 3px 0px 3px 0px;
+  color: var(--accent-color);
+  background-color: #ffffff20;
+  display: block;
+  padding: 3px 0px 3px 0px;
 }
 .headline1 a:hover {
-    background-color: var(--hovered-link-background-color);
-    display: block;
+  background-color: var(--hovered-link-background-color);
+  display: block;
 }
 
 .headline2 {
-    border: solid 1px var(--accent-color);
-    display: block;
+  border: solid 1px var(--accent-color);
+  display: block;
 }
 .headline2 a {
-    color: var(--accent-color);
-    background-color: #ffffff20;
-    display: block;
-    padding: 3px 0px 3px 0px;
+  color: var(--accent-color);
+  background-color: #ffffff20;
+  display: block;
+  padding: 3px 0px 3px 0px;
 }
 .headline2 a:hover {
-    background-color: var(--hovered-link-background-color);
-    display: block;
+  background-color: var(--hovered-link-background-color);
+  display: block;
 }
 
 .headline3 {
-    border: solid 1px var(--accent-color);
-    display: block;
+  border: solid 1px var(--accent-color);
+  display: block;
 }
 .headline3 a {
-    color: var(--accent-color);
-    background-color: #ffffff20;
-    display: block;
-    padding: 3px 0px 3px 0px;
+  color: var(--accent-color);
+  background-color: #ffffff20;
+  display: block;
+  padding: 3px 0px 3px 0px;
 }
 .headline3 a:hover {
-    background-color: var(--hovered-link-background-color);
-    display: block;
+  background-color: var(--hovered-link-background-color);
+  display: block;
 }
 
 .headline4 {
-    border: solid 1px var(--accent-color);
-    display: block;
+  border: solid 1px var(--accent-color);
+  display: block;
 }
 .headline4 a {
-    color: var(--accent-color);
-    background-color: #ffffff20;
-    display: block;
-    padding: 3px 0px 3px 0px;
+  color: var(--accent-color);
+  background-color: #ffffff20;
+  display: block;
+  padding: 3px 0px 3px 0px;
 }
 .headline4 a:hover {
-    background-color: var(--hovered-link-background-color);
-    display: block;
+  background-color: var(--hovered-link-background-color);
+  display: block;
 }
 
 /* nav end */
@@ -75,16 +68,16 @@
 /* main start */
 
 .mainContainer img {
-    width: 400px;
+  width: 400px;
 }
 
 main h1 {
-    text-align: center;
+  text-align: center;
 }
 
 main {
-    width: max(1000px);
-    margin: auto;
+  width: max(1000px);
+  margin: auto;
 }
 
 /* main end */
@@ -92,5 +85,5 @@ main {
 /* chart start */
 
 #chart {
-    height: 275px;
+  height: 275px;
 }

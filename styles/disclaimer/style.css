@@ -2,13 +2,6 @@
   margin: 5px;
 }
 
-#logo {
-  width: 1.5rem;
-  background-color: #ffffffdc;
-  padding: 0px 3px 1px 3px;
-  border-radius: 5px;
-}
-
 .headline1 {
   border: solid 1px var(--accent-color);
   display: block;

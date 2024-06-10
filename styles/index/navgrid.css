@@ -9,7 +9,7 @@
     grid-template-rows: 1fr;
     gap: 0px 6px;
     grid-auto-flow: row;
-    grid-template-areas: "logo space1 headline1 headline2 headline3 space2";
+    grid-template-areas: "logo space1 headline1 headline2 headline3  space2";
     align-items: center;
     text-align: center;
 }

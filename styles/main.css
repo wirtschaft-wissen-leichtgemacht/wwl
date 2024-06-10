@@ -27,3 +27,8 @@ h5,
 h6 {
     color: var(--accent-color);
 }
+
+.copyleft {
+    display: inline-block;
+    transform: rotate(180deg);
+}

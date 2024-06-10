@@ -89,40 +89,6 @@ main {
 
 /* main end */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* footer start */
-
-footer {
-    background-color: #ffffff4f;
-    text-align: center;
-    padding-bottom: 1rem;
-}
-
-.legal {
-    padding-top: 1rem;
-}
-
-.disclaimer {
-    padding-top: 1rem;
-}
-.disclaimer h4 {
-    margin-top: 0;
-}
-
-.disclaimer a {
-    color: var(--accent-color);
-    border: solid 1px var(--accent-color);
-    background-color: #ffffff20;
-    display: block;
-    padding: 3px 0px 3px 0px;
-    width: 100px;
-    margin: auto;
-}
-.disclaimer a:hover {
-    background-color: var(--hovered-link-background-color);
-}
-
-/* footer end */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* chart start */
 
 #chart {

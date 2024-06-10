@@ -60,6 +60,19 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* main start */
 
+main h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: fit-content;
+    margin: auto;
+}
+
+main p {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+
 .episode {
     background-color: var(--episode-background-color);
     border-radius: 21px;
@@ -68,16 +81,19 @@
 
 .episodeNum {
     font-size: 22px;
-    border: 1px solid var(--accent-color);
+    border-right: 1px solid var(--accent-color);
     padding: 0px 13px;
-    border-radius: 20px;
 }
 
-.episodeTitle {
-    font-size: 22px;
+.episodeTitle h2 {
+    font-size: 20px;
+    padding-top: 8px;
+    margin: 0;
 }
 
 .description {
+    padding-bottom: 1rem;
+    padding-right: 4px;
 }
 
 /* main end */

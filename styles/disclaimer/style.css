@@ -1,0 +1,68 @@
+.navContainer {
+  margin: 5px;
+}
+
+#logo {
+  width: 1.5rem;
+  background-color: #ffffffdc;
+  padding: 0px 3px 1px 3px;
+  border-radius: 5px;
+}
+
+.headline1 {
+  border: solid 1px var(--accent-color);
+  display: block;
+}
+.headline1 a {
+  color: var(--accent-color);
+  background-color: #ffffff20;
+  display: block;
+  padding: 3px 0px 3px 0px;
+}
+.headline1 a:hover {
+  background-color: var(--hovered-link-background-color);
+  display: block;
+}
+
+.headline2 {
+  border: solid 1px var(--accent-color);
+  display: block;
+}
+.headline2 a {
+  color: var(--accent-color);
+  background-color: #ffffff20;
+  display: block;
+  padding: 3px 0px 3px 0px;
+}
+.headline2 a:hover {
+  background-color: var(--hovered-link-background-color);
+  display: block;
+}
+
+.headline3 {
+  border: solid 1px var(--accent-color);
+  display: block;
+}
+.headline3 a {
+  color: var(--accent-color);
+  background-color: #ffffff20;
+  display: block;
+  padding: 3px 0px 3px 0px;
+}
+.headline3 a:hover {
+  background-color: var(--hovered-link-background-color);
+  display: block;
+}
+
+main {
+  text-align: center;
+  margin: 10rem 0 10rem 0;
+}
+main p {
+  text-align: center;
+  width: 900px;
+  margin: auto;
+}
+main p:last-child {
+  margin-bottom: 2rem;
+}
